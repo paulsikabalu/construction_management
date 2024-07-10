@@ -1,0 +1,79 @@
+/* src/components/Dashboard.css */
+
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.summary,
+.recent-activities,
+.performance-metrics {
+  margin-bottom: 20px;
+}
+
+.summary-details,
+.metrics {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary-item,
+.metric-item {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.recent-activities ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-activities li {
+  background: #f1f1f1;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recent-activities li:hover {
+  background: #e2e2e2;
+}
+
+.recent-activities li .activity-time {
+  color: #999;
+  font-size: 0.9em;
+}
+
+.dashboard-links {
+  margin-top: 20px;
+}
+
+.dashboard-link {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.dashboard-link:hover {
+  background-color: #0056b3;
+}

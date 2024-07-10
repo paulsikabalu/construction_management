@@ -1,0 +1,23 @@
+.projects {
+    padding: 20px;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-item {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .project-item:hover {
+    background-color: #f8f9fa;
+  }
+  
